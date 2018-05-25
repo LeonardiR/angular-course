@@ -1,5 +1,5 @@
 import { Component, OnInit, DoCheck } from '@angular/core';
-import {FormGroup, FormBuilder, Validators, FormArray} from '@angular/forms';
+import {FormGroup, FormBuilder, Validators} from '@angular/forms';
 import {User} from "../shared/models/user";
 
 @Component({
