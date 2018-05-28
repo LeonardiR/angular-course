@@ -1,6 +1,6 @@
 import { Component, OnInit, DoCheck } from '@angular/core';
 import {FormGroup, FormBuilder, Validators} from '@angular/forms';
-import {User} from "../shared/models/user";
+import {User} from '../shared/models/user';
 
 @Component({
   selector: 'app-form',
