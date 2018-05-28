@@ -33,7 +33,7 @@ export class FormComponent implements OnInit, DoCheck {
     const pw = form.get('pw').value;
     const repw = form.get('repw').value;
 
-    if(pw <= 0 && repw <= 0){
+    if (pw <= 0 && repw <= 0) {
       return null;
     }
 
@@ -48,7 +48,7 @@ export class FormComponent implements OnInit, DoCheck {
     }
   }
 
-  submitForm (){
+  submitForm () {
     if(this.form.valid){
       this.users.push(this.form.value);
     }
